@@ -19,7 +19,7 @@ st.markdown(
 )
 
 # Typing effect
-text = "Welcome to Dagu Game"
+text = "Welcome to Amasoft "
 placeholder = st.empty()
 output = ""
 
