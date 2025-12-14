@@ -1,10 +1,24 @@
 import streamlit as st
 import os
+import time
 
-st.image("images/icon.png", width=200)
+st.image("        images/icon.png", width=450)
+time.sleep(1)
 
 
-st.title("💻 Dagu Game")
+st.title("                💻 Amasoft")
+
+
+text = "Welcome to Dagu Game"
+
+placeholder = st.empty()
+output = ""
+
+for char in text:
+    output += char
+    placeholder.markdown(output)
+    time.sleep(0.05)
+
 
 st.write("Current directory:")
 st.write("You can down load games with will be added latter")
