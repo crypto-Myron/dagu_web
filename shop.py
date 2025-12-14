@@ -1,6 +1,9 @@
 import streamlit as st
 import os
 
+st.image("images/icon.png", width=200)
+
+
 st.title("💻 Dagu Game")
 
 st.write("Current directory:")
