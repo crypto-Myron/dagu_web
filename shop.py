@@ -30,7 +30,7 @@ for char in text:
 
 st.divider()
 
-if st.button("Survive game")
+if st.button("Survive game"):
     st.session_state.page = "games"
 
 
