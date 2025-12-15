@@ -30,6 +30,14 @@ for char in text:
 
 st.divider()
 
+if st.button("Survive game")
+    st.session_state.page = "games"
+
+
+
+
+
+
 # Info
 st.write("📁 You can download games (more coming later)")
 st.write("🎮 You can now play Dagu or try the demo")
